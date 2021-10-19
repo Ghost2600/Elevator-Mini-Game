@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{90D6DCBC-AFCB-4FFE-E0FD-4B0B72DD87E6}</ProjectGuid>
+    <ProjectGuid>{FEADC9BC-B034-A4D6-0524-8EA30E9B0801}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Assets\player Prefab\playerMovement.cs" />
     <Compile Include="Assets\player Prefab\mouselook.cs" />
+    <Compile Include="Assets\Script\MenuScript.cs" />
+    <Compile Include="Assets\Script\ISpy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
