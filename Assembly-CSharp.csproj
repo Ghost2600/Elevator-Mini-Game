@@ -55,8 +55,9 @@
   <ItemGroup>
     <Compile Include="Assets\player Prefab\playerMovement.cs" />
     <Compile Include="Assets\player Prefab\mouselook.cs" />
-    <Compile Include="Assets\Script\MenuScript.cs" />
     <Compile Include="Assets\Script\ISpy.cs" />
+    <Compile Include="Assets\Script\MenuScript.cs" />
+    <Compile Include="Assets\Script\DoorTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
