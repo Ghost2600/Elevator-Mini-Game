@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - DoorTrigger
     - ISpy
     - MenuScript
+    - PauseMenu
     - mouselook
     - playerMovement
     Unity.Rider.Editor.dll:
@@ -116,13 +117,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1484}
+    - Class: 114
       Script: {instanceID: 1560}
     - Class: 114
+      Script: {instanceID: 1958}
+    - Class: 114
       Script: {instanceID: 2040}
+    - Class: 114
+      Script: {instanceID: 2236}
+    - Class: 114
+      Script: {instanceID: 2336}
+    - Class: 114
+      Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2662}
+    - Class: 114
+      Script: {instanceID: 2740}
     - Class: 114
       Script: {instanceID: 3110}
     - Class: 114
       Script: {instanceID: 3280}
+    - Class: 114
+      Script: {instanceID: 3746}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -140,6 +157,16 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -550,6 +577,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 764310837a40c25e0b7a3be858025d63
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
