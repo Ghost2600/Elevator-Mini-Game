@@ -54,10 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\player Prefab\playerMovement.cs" />
+    <Compile Include="Assets\Script\DoorTrigger.cs" />
     <Compile Include="Assets\player Prefab\mouselook.cs" />
     <Compile Include="Assets\Script\ISpy.cs" />
     <Compile Include="Assets\Script\MenuScript.cs" />
-    <Compile Include="Assets\Script\pauseMenu.cs" />
+    <Compile Include="Assets\Script\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
