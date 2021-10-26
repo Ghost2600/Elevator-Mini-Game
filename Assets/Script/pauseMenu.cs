@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pauseMenu : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseUI;
     bool isPaused = false;
@@ -14,30 +14,38 @@ public class pauseMenu : MonoBehaviour
             TogglePause();
         }
     }
+
     public void TogglePause()
     {
         if (isPaused == true)
         {
-            //unpauses time
+            //unpause
             Time.timeScale = 1.0f;
 
-            //hides button when unpaused
+            //Hides the button when the game is unpaused.
             pauseUI.SetActive(false);
 
+            //When ispaused is true, this line will set it to false
             isPaused = false;
         }
         else
         {
-            //pauses time
-            Time.timeScale = 0;
+            //pause
+            Time.timeScale = 0.0f;
+
+            //Shows the button when the game is paused.
             pauseUI.SetActive(true);
+
+            //When ispaused is false, this line will set it to true
             isPaused = true;
         }
+        //Sets ispaused to the oppisite of what it is right now
         //isPaused = !isPaused;
     }
+
+
     public void Quit()
     {
         Application.Quit();
     }
 }
-
