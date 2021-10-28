@@ -55,12 +55,13 @@
   <ItemGroup>
     <Compile Include="Assets\player Prefab\playerMovement.cs" />
     <Compile Include="Assets\Script\DoorTrigger.cs" />
+    <Compile Include="Assets\Script\restart.cs" />
     <Compile Include="Assets\player Prefab\mouselook.cs" />
     <Compile Include="Assets\Script\ISpy.cs" />
     <Compile Include="Assets\Script\MenuScript.cs" />
     <Compile Include="Assets\Script\PauseMenu.cs" />
-    <Compile Include="Assets\Script\restart.cs" />
     <Compile Include="Assets\Script\quit.cs" />
+    <Compile Include="Assets\Script\voidDeath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
