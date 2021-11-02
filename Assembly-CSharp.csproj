@@ -56,14 +56,13 @@
     <Compile Include="Assets\player Prefab\playerMovement.cs" />
     <Compile Include="Assets\Script\DoorTrigger.cs" />
     <Compile Include="Assets\Script\restart.cs" />
-    <Compile Include="Assets\Script\PlayerInteraction.cs" />
     <Compile Include="Assets\player Prefab\mouselook.cs" />
     <Compile Include="Assets\Script\voidDeath.cs" />
     <Compile Include="Assets\Script\ISpy.cs" />
     <Compile Include="Assets\Script\MenuScript.cs" />
+    <Compile Include="Assets\Script\winScript.cs" />
     <Compile Include="Assets\Script\PauseMenu.cs" />
     <Compile Include="Assets\Script\quit.cs" />
-    <Compile Include="Assets\Script\winScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
