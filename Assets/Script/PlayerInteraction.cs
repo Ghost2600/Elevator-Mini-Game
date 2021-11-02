@@ -11,5 +11,4 @@ public class PlayerInteraction : MonoBehaviour {
 
     public InteractionType interactionType;
 
-    public abstract string GetDescription();
 }
