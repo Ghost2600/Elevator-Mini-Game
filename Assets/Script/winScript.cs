@@ -16,5 +16,8 @@ public class winScript : MonoBehaviour
 
         isWin = true;
 
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
     }
 }

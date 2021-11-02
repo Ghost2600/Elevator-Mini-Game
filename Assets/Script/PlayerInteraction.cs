@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour {
-    public enum InteractionType {
+    public enum InteractionType 
+    {
         Click,
         Hold,
         Minigame,

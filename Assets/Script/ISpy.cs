@@ -30,6 +30,9 @@ public class ISpy : MonoBehaviour
         //When ispaused is false, this line will set it to true
         isGameOver = true;
 
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
     }
 }
 
